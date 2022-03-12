@@ -1,22 +1,24 @@
 # TravelerZ
 
-# General description
+# General Description
 
 TravelerZ is a web application for anybody that wants to easily plan their trips. It provides: 
 
-- weather information
 - hotels or accommodations
+- weather information
 - nearby restaurants
 - nearby landmarks
 
+Link to the Design:  https://www.figma.com/file/lbAiGBMjvaqsyHw6R5LYUR/TravelerZ?node-id=0%3A1
 
-# Technologies used
+
+# Technologies Used
 
 Frontend: Angular 13.1.1
 
-Backend: Spring Boot 2.5 / .NET 6.0.2
+Backend: .NET 6.0.2
 
-Database: MySQL / MongoDB
+Database: MicrosoftSQL
 
 # Registration and Log In
 
