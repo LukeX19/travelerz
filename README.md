@@ -9,7 +9,7 @@ TravelerZ is a web application for anybody that wants to easily plan their trips
 - nearby restaurants
 - nearby landmarks
 
-Link to the Design:  https://www.figma.com/file/lbAiGBMjvaqsyHw6R5LYUR/TravelerZ?node-id=0%3A1
+Link to Wireframe:  https://www.figma.com/file/lbAiGBMjvaqsyHw6R5LYUR/TravelerZ?node-id=0%3A1
 
 
 # Technologies Used
@@ -19,6 +19,8 @@ Frontend: Angular 13.1.1
 Backend: .NET 6.0.2
 
 Database: MicrosoftSQL
+
+Wireframe: Figma
 
 # Registration and Log In
 
