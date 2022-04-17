@@ -15,13 +15,15 @@ import { LoginComponent } from './components/login/login.component';
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
 import { SignupComponent } from './components/signup/signup.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
