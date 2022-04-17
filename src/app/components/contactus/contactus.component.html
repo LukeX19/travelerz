@@ -1,0 +1,37 @@
+<div class="form-container mat-elevation-z5">
+  <p style="font-size: x-large; text-align: center"><strong>Contact Us</strong></p>
+  <br>
+  <p>We are here for help or to answer any kind of questions you might have. Please use the following form in order to send us a message!</p>
+
+  <form [formGroup]="contactusForm">
+    <mat-form-field>
+      <input matInput placeholder="Full Name" formControlName="name" />
+      <mat-error *ngIf="name?.errors?.['required']">
+        Name is required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Email address" formControlName="email" />
+      <mat-error *ngIf="email?.errors?.['required']">
+        Email address is required
+      </mat-error>
+      <mat-error *ngIf="email?.errors?.['email']">
+        Please enter a valid email address
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput placeholder="Write message" formControlName="message"></textarea>
+      <mat-error *ngIf="message?.errors?.['required']">
+        Message is required
+      </mat-error>
+    </mat-form-field>
+
+    <div class="center margin-top">
+      <button type="submit" mat-raised-button color="primary">Send</button>
+    </div>
+
+  </form>
+
+</div>
