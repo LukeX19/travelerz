@@ -34,6 +34,8 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
 import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
+import { HotellistItemComponent } from './components/hotellist-item/hotellist-item.component';
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -43,7 +45,8 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     SignupComponent,
     AboutComponent,
     ContactUsComponent,
-    HomepageComponent
+    HomepageComponent,
+    HotellistItemComponent
   ],
   imports: [
     BrowserModule,
@@ -73,6 +76,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
