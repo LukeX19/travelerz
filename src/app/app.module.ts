@@ -9,7 +9,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatMenuModule} from "@angular/material/menu";
 import { LoginComponent } from './components/login/login.component';
 import {RouterModule} from "@angular/router";
@@ -36,6 +36,9 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { HotellistItemComponent } from './components/hotellist-item/hotellist-item.component';
 import {MatCardModule} from "@angular/material/card";
+import { FilterComponent } from './components/filter/filter.component';
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatSliderModule} from "@angular/material/slider";
 
 @NgModule({
   declarations: [
@@ -46,7 +49,8 @@ import {MatCardModule} from "@angular/material/card";
     AboutComponent,
     ContactUsComponent,
     HomepageComponent,
-    HotellistItemComponent
+    HotellistItemComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
@@ -77,6 +81,9 @@ import {MatCardModule} from "@angular/material/card";
     MdbTooltipModule,
     MdbValidationModule,
     MatCardModule,
+    MatCheckboxModule,
+    MatSliderModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

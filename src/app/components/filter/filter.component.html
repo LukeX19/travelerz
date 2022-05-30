@@ -1,0 +1,67 @@
+<mat-card>
+  <mat-card-title>Add Filters</mat-card-title>
+  <section class="price-class">
+    <hr>
+    <h4>Price / Night</h4>
+    <mat-label>{{value}} €</mat-label>
+    <mat-slider
+      class="example-margin"
+      [disabled]="disabled"
+      [invert]="invert"
+      [max]="max"
+      [min]="min"
+      [step]="step"
+      [thumbLabel]="thumbLabel"
+      [(ngModel)]="value"
+      [vertical]="vertical"
+      aria-labelledby="example-name-label">
+    </mat-slider>
+  </section>
+
+  <section class="rating-class">
+    <hr>
+    <h4>Rating</h4>
+    <p><mat-checkbox formControlName="5stars">5 Stars</mat-checkbox></p>
+    <p><mat-checkbox formControlName="4stars">4 Stars</mat-checkbox></p>
+    <p><mat-checkbox formControlName="3stars">3 Stars</mat-checkbox></p>
+    <p><mat-checkbox formControlName="2stars">2 Stars</mat-checkbox></p>
+    <p><mat-checkbox formControlName="1star">1 Star</mat-checkbox></p>
+    <p><mat-checkbox formControlName="noRating">No Rating</mat-checkbox></p>
+  </section>
+
+  <section class="facilities-class">
+    <hr>
+    <h4>Facilities</h4>
+    <p><mat-checkbox formControlName="roomService">Room Service</mat-checkbox></p>
+    <p><mat-checkbox formControlName="freeWIFI">Free WiFi</mat-checkbox></p>
+    <p><mat-checkbox formControlName="restaurant">Restaurant</mat-checkbox></p>
+    <p><mat-checkbox formControlName="gym">Gym</mat-checkbox></p>
+    <p><mat-checkbox formControlName="petsAllowed">Pets Allowed</mat-checkbox></p>
+  </section>
+
+  <section class="activities-class">
+    <hr>
+    <h4>Activities</h4>
+    <p><mat-checkbox formControlName="spa">Spa</mat-checkbox></p>
+    <p><mat-checkbox formControlName="hiking">Hiking</mat-checkbox></p>
+    <p><mat-checkbox formControlName="beach">Beach</mat-checkbox></p>
+    <p><mat-checkbox formControlName="nighclub">Nightclub</mat-checkbox></p>
+    <p><mat-checkbox formControlName="football">Football Field</mat-checkbox></p>
+  </section>
+
+  <section class="landmarks-class">
+    <hr>
+    <h4>Nearby Landmarks</h4>
+    <p><mat-checkbox formControlName="park">Park</mat-checkbox></p>
+    <p><mat-checkbox formControlName="musem">Museum</mat-checkbox></p>
+    <p><mat-checkbox formControlName="plaza">Plaza</mat-checkbox></p>
+    <p><mat-checkbox formControlName="artGallery">Art Gallery</mat-checkbox></p>
+    <p><mat-checkbox formControlName="church">Church</mat-checkbox></p>
+    <p><mat-checkbox formControlName="palace">Palace</mat-checkbox></p>
+  </section>
+</mat-card>
+
+
+
+
+
