@@ -39,6 +39,7 @@ import {MatCardModule} from "@angular/material/card";
 import { FilterComponent } from './components/filter/filter.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSliderModule} from "@angular/material/slider";
+import { MapsComponent } from './components/maps/maps.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import {MatSliderModule} from "@angular/material/slider";
     ContactUsComponent,
     HomepageComponent,
     HotellistItemComponent,
-    FilterComponent
+    FilterComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,
